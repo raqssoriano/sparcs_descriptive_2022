@@ -44,13 +44,13 @@
     - Quartiles
 
 
-### **(4)Data Visualization:**
+### **(4) Data Visualization:**
 
-- **Histogram** of **`Length of Stay`**: It visually represents the distribution of hospital stay durations.
+- [**Histogram**](https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/Histogram.png) of **`Length of Stay`**: It visually represents the distribution of hospital stay durations.
 
-- **Boxplot** for **`Total Charges`**: It helps identify potential outliers in the healthcare costs.
+- [**Boxplot**](https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/Box%20Plot.png) for **`Total Charges`**: It helps identify potential outliers in the healthcare costs.
 
-- **Bar plot** for **`Type of Admission`**: It provides insights into the relative frequencies of different reasons of admission.
+- [**Bar plot**](https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/6%20-%20Admission%20Type%20Bar%20Plot.png) for **`Type of Admission`**: It provides insights into the relative frequencies of different reasons of admission.
 
 
 ### **(5) Handling Missing Data:**
@@ -58,7 +58,7 @@
  - Check for missing data/values.
  - Remove rows with missing values.
  - Fill missing data with the mean.
- - Verify if the filling the missing data is successful.
+ - Verify if filling the missing data is successful.
 
 
 ### **(6) Summary Report and Insights:**
@@ -67,34 +67,34 @@
  
 - (b) *Total Cost Variation:*
 
-    - **★Total Cost Variation (Age Group)★**
+   - **★Total Cost Variation (Age Group)★**
 
-        - It's true that cost of care tends to increase with age, particularly between 50 and 69. This increase is largely due to the higher prevalence of chronic conditions in this age group, such as hypertension, heart disease, diabetes, pneumonia, and COPD (Chronic Obstructive Pulmonary Disease). This conditions often need more frequent medical intervention, including emergency room visits, urgent care visits, and outpatient appointments. Additionally, individuals/patients with multiple chronic illnesses may require hospitalization which may significantly contribute to higher costs of treatment. In contrast, the 0-17 age group typically experiences fewer chronic illnesses, resulting in lower overall healthcare costs.
+       - It's true that cost of care tends to increase with age, particularly **between 50 and 69**. This increase is largely due to the higher prevalence of *chronic conditions* in this age group, such as hypertension, heart disease, diabetes, pneumonia, and COPD (Chronic Obstructive Pulmonary Disease). This conditions often need more frequent medical intervention, including emergency room visits, urgent care visits, and outpatient appointments. Additionally, individuals/patients with multiple chronic illnesses may require hospitalization which may significantly contribute to higher costs of treatment. In contrast, the **0-17 age group** typically experiences *fewer* chronic illnesses, resulting in lower overall healthcare costs.
 
-     <img src="/Users/raqsmacbookair/Desktop/1 - Age Group - Total Cost.png" width="300" />
+         <img src="https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/1%20-%20Age%20Group%20-%20Total%20Cost.png" width="300" />
 
-     <img src="/Users/raqsmacbookair/Desktop/2 - Age Group Bar Plot.png" width="500" />
+         <img src="https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/2%20-%20Age%20Group%20Bar%20Plot.png" width="500" />
 
-    - **★Total Cost Variation (Type of Admission)★**
+   - **★Total Cost Variation (Type of Admission)★**
 
-        - **`TRAUMA admissions`** ➙ highest total cost; it involves serious and life-threatening injuries, which require specialized care and may include include advanced imaging such as MRI, ultrasound, and xrays. It often involves the use of operating rooms (OR) and surgical equipment. This can result in longer stays depending on the severity of the injuries sustained by patients.
+       - **`TRAUMA admissions`** ➙ **highest total cost**; it involves serious and life-threatening injuries, which require specialized care and may include include advanced imaging such as MRI, ultrasound, and xrays. It often involves the use of operating rooms (OR) and surgical equipment. This can result in longer stays depending on the severity of the injuries sustained by patients.
 
-        - **`NEWBORN admissions`** ➙ lowest total cost; healthy newborns may require shorter stay in the hospital, which is likely why it gets the lowest total cost, as most can be discharged once deemed safe.
+       - **`NEWBORN admissions`** ➙ **lowest total cost**; healthy newborns may require shorter stay in the hospital, which is likely why it gets the lowest total cost, as most can be discharged once deemed safe.
 
-     <img src="/Users/raqsmacbookair/Desktop/3 - Types of Admission - Total Cost.png" width="300" />
-
-     <img src="/Users/raqsmacbookair/Desktop/4 - Types of Admission Bar Plot.png" width="500" />
+         <img src="https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/3%20-%20Types%20of%20Admission%20-%20Total%20Cost.png" width="300" />
+         
+         <img src="https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/4%20-%20Types%20of%20Admission%20Bar%20Plot.png" width="500" />
 
 
 - (c) *Noticeable Trends:*
 
-    - **`EMERGENCY ADMISSIONS`** *(1,394,328)* - This is the highest volume of admission rates among the list within the health dataset. This could mean that acute care requires special attention, particularly in New York, which is the focus of this health dataset. It is essential to note the age group and the location or area of the contributing admission rates, as this could provide valuable insights on where the private/public health officials should allocate most of the financial support. Additionally, this data is crucial for hospitals or health systems to prepare in allocating beds, staffing, and other necessary resources to better meet the needs of the public or patients.
+     - **`EMERGENCY ADMISSIONS`** *(1,394,328)* - This is the highest volume of admission rates among the list within the health dataset. This could mean that acute care requires special attention, particularly in New York. It is essential to note the age group and the location or area of the contributing admission rates, as this could provide valuable insights on where the private/public health officials should allocate most of the financial support. Additionally, this data is crucial for hospitals or health systems to prepare in allocating beds, staffing, and other necessary resources to better meet the needs of the public or patients. Also, we shouldn't forget that race/ethnicity may contribute to these admission rates. Although I didn't perform a data visualization in this category, studies have shown that racial/ethnic minorities often face disparities in healthcare access and outcomes. When given the time, I will update this repository and add more insights.
 
-    - **`TRAUMA ADMISSIONS`** *(7,312)* - This is the second lowest admission rate in New York within this health dataset. As a former ED nurse, I am not surprised this is one of the lowest, as not all hospitals are considered level 1 trauma centers or may not even be trauma centers. This means patients who needed specialized care due to life-threatening injuries may require transfer to trauma center hospitals.
+     - **`TRAUMA ADMISSIONS`** *(7,312)* - This is the second lowest admission rate in New York within this health dataset. As a former ED nurse, I am not surprised this is one of the lowest, as not all hospitals are considered level 1 trauma centers or may not even be trauma centers. This means patients who needed specialized care due to life-threatening injuries may require transfer to trauma center hospitals.
 
-     <img src="/Users/raqsmacbookair/Desktop/5 - Type of Admission Distribution.png" width="300" />
+         <img src="https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/5%20-%20Type%20of%20Admission%20Distribution.png" width="300" />
 
-     <img src="/Users/raqsmacbookair/Desktop/6 - Admission Type Bar Plot.png" width="500" />
+         <img src="https://github.com/raqssoriano/sparcs_descriptive_2022/blob/main/sparcs_barplot/6%20-%20Admission%20Type%20Bar%20Plot.png" width="500" />
 
 
 
